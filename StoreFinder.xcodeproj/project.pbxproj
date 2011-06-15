@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5209C32135E7E9200C5B2B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5209C31135E7E9200C5B2B5 /* UIKit.framework */; };
+		E5209C34135E7E9200C5B2B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5209C33135E7E9200C5B2B5 /* Foundation.framework */; };
+		E5209C36135E7E9200C5B2B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5209C35135E7E9200C5B2B5 /* CoreGraphics.framework */; };
+		E5209C3C135E7E9200C5B2B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5209C3A135E7E9200C5B2B5 /* InfoPlist.strings */; };
+		E5209C3F135E7E9200C5B2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5209C3E135E7E9200C5B2B5 /* main.m */; };
+		E5209C42135E7E9200C5B2B5 /* StoreFinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5209C41135E7E9200C5B2B5 /* StoreFinderAppDelegate.m */; };
+		E5209C45135E7E9200C5B2B5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5209C43135E7E9200C5B2B5 /* MainWindow.xib */; };
+		E5209C48135E7E9200C5B2B5 /* StoreFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5209C47135E7E9200C5B2B5 /* StoreFinderViewController.m */; };
+		E5209C4B135E7E9200C5B2B5 /* StoreFinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5209C49135E7E9200C5B2B5 /* StoreFinderViewController.xib */; };
+		E5209C52135E81EB00C5B2B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5209C51135E81EB00C5B2B5 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5209C2D135E7E9200C5B2B5 /* StoreFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5209C31135E7E9200C5B2B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5209C33135E7E9200C5B2B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5209C35135E7E9200C5B2B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5209C39135E7E9200C5B2B5 /* StoreFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoreFinder-Info.plist"; sourceTree = "<group>"; };
+		E5209C3B135E7E9200C5B2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5209C3D135E7E9200C5B2B5 /* StoreFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoreFinder-Prefix.pch"; sourceTree = "<group>"; };
+		E5209C3E135E7E9200C5B2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5209C40135E7E9200C5B2B5 /* StoreFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreFinderAppDelegate.h; sourceTree = "<group>"; };
+		E5209C41135E7E9200C5B2B5 /* StoreFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreFinderAppDelegate.m; sourceTree = "<group>"; };
+		E5209C44135E7E9200C5B2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E5209C46135E7E9200C5B2B5 /* StoreFinderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreFinderViewController.h; sourceTree = "<group>"; };
+		E5209C47135E7E9200C5B2B5 /* StoreFinderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreFinderViewController.m; sourceTree = "<group>"; };
+		E5209C4A135E7E9200C5B2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StoreFinderViewController.xib; sourceTree = "<group>"; };
+		E5209C51135E81EB00C5B2B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5209C2A135E7E9200C5B2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5209C52135E81EB00C5B2B5 /* CoreLocation.framework in Frameworks */,
+				E5209C32135E7E9200C5B2B5 /* UIKit.framework in Frameworks */,
+				E5209C34135E7E9200C5B2B5 /* Foundation.framework in Frameworks */,
+				E5209C36135E7E9200C5B2B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5209C22135E7E9200C5B2B5 = {
+			isa = PBXGroup;
+			children = (
+				E5209C51135E81EB00C5B2B5 /* CoreLocation.framework */,
+				E5209C37135E7E9200C5B2B5 /* StoreFinder */,
+				E5209C30135E7E9200C5B2B5 /* Frameworks */,
+				E5209C2E135E7E9200C5B2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5209C2E135E7E9200C5B2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5209C2D135E7E9200C5B2B5 /* StoreFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5209C30135E7E9200C5B2B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5209C31135E7E9200C5B2B5 /* UIKit.framework */,
+				E5209C33135E7E9200C5B2B5 /* Foundation.framework */,
+				E5209C35135E7E9200C5B2B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5209C37135E7E9200C5B2B5 /* StoreFinder */ = {
+			isa = PBXGroup;
+			children = (
+				E5209C40135E7E9200C5B2B5 /* StoreFinderAppDelegate.h */,
+				E5209C41135E7E9200C5B2B5 /* StoreFinderAppDelegate.m */,
+				E5209C43135E7E9200C5B2B5 /* MainWindow.xib */,
+				E5209C46135E7E9200C5B2B5 /* StoreFinderViewController.h */,
+				E5209C47135E7E9200C5B2B5 /* StoreFinderViewController.m */,
+				E5209C49135E7E9200C5B2B5 /* StoreFinderViewController.xib */,
+				E5209C38135E7E9200C5B2B5 /* Supporting Files */,
+			);
+			path = StoreFinder;
+			sourceTree = "<group>";
+		};
+		E5209C38135E7E9200C5B2B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5209C39135E7E9200C5B2B5 /* StoreFinder-Info.plist */,
+				E5209C3A135E7E9200C5B2B5 /* InfoPlist.strings */,
+				E5209C3D135E7E9200C5B2B5 /* StoreFinder-Prefix.pch */,
+				E5209C3E135E7E9200C5B2B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5209C2C135E7E9200C5B2B5 /* StoreFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5209C4E135E7E9200C5B2B5 /* Build configuration list for PBXNativeTarget "StoreFinder" */;
+			buildPhases = (
+				E5209C29135E7E9200C5B2B5 /* Sources */,
+				E5209C2A135E7E9200C5B2B5 /* Frameworks */,
+				E5209C2B135E7E9200C5B2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoreFinder;
+			productName = StoreFinder;
+			productReference = E5209C2D135E7E9200C5B2B5 /* StoreFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5209C24135E7E9200C5B2B5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E5209C27135E7E9200C5B2B5 /* Build configuration list for PBXProject "StoreFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5209C22135E7E9200C5B2B5;
+			productRefGroup = E5209C2E135E7E9200C5B2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5209C2C135E7E9200C5B2B5 /* StoreFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5209C2B135E7E9200C5B2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5209C3C135E7E9200C5B2B5 /* InfoPlist.strings in Resources */,
+				E5209C45135E7E9200C5B2B5 /* MainWindow.xib in Resources */,
+				E5209C4B135E7E9200C5B2B5 /* StoreFinderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5209C29135E7E9200C5B2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5209C3F135E7E9200C5B2B5 /* main.m in Sources */,
+				E5209C42135E7E9200C5B2B5 /* StoreFinderAppDelegate.m in Sources */,
+				E5209C48135E7E9200C5B2B5 /* StoreFinderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5209C3A135E7E9200C5B2B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5209C3B135E7E9200C5B2B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5209C43135E7E9200C5B2B5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5209C44135E7E9200C5B2B5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E5209C49135E7E9200C5B2B5 /* StoreFinderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5209C4A135E7E9200C5B2B5 /* en */,
+			);
+			name = StoreFinderViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5209C4C135E7E9200C5B2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E5209C4D135E7E9200C5B2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E5209C4F135E7E9200C5B2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoreFinder/StoreFinder-Prefix.pch";
+				INFOPLIST_FILE = "StoreFinder/StoreFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5209C50135E7E9200C5B2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoreFinder/StoreFinder-Prefix.pch";
+				INFOPLIST_FILE = "StoreFinder/StoreFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5209C27135E7E9200C5B2B5 /* Build configuration list for PBXProject "StoreFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5209C4C135E7E9200C5B2B5 /* Debug */,
+				E5209C4D135E7E9200C5B2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5209C4E135E7E9200C5B2B5 /* Build configuration list for PBXNativeTarget "StoreFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5209C4F135E7E9200C5B2B5 /* Debug */,
+				E5209C50135E7E9200C5B2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5209C24135E7E9200C5B2B5 /* Project object */;
+}
